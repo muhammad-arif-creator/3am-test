@@ -1,0 +1,25 @@
+.banner-content {
+  z-index: 2;
+  color: #fff;
+}
+.banner-left h1 {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.banner-left p {
+  margin-bottom: 30px;
+}
+.banner-right ul {
+  list-style: none;
+}
+.banner-right ul li {
+  margin-bottom: 30px;
+}
+.banner-right ul li::before {
+  content: "";
+  background: url("../../../public/images/check.png");
+  width: 20px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 14px;
+}
