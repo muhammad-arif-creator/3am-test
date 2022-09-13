@@ -1,0 +1,26 @@
+.agent {
+  background-color: #006b6e;
+  padding: 75px 0px;
+  color: #fff;
+  text-align: center;
+}
+.specification-wrapper {
+  display: flex;
+}
+.inner {
+  padding: 0px 10px;
+  border-right: 1px solid #ffffff40;
+  flex: 1;
+  margin: 30px 0px 50px;
+}
+.inner:last-child {
+  border-right: 0px;
+}
+.inner h1 {
+  font-size: 50px;
+}
+.inner p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}

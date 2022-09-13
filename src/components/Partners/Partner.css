@@ -1,0 +1,13 @@
+.partners {
+  padding: 100px 0px;
+}
+.partners-logo {
+  background-color: #f0f0f0;
+  max-width: 586px;
+  text-align: center;
+  padding: 22px 37px;
+}
+.partners-content {
+  max-width: 408px;
+  padding-left: 2rem;
+}

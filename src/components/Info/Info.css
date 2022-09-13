@@ -1,0 +1,15 @@
+.info .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.info-content {
+  max-width: 586px;
+  padding-left: 111px;
+}
+.info-content p {
+  margin-bottom: 30px;
+}
+.info .row:nth-child(even) .info-content {
+  margin-left: auto;
+  padding-right: 111px;
+  padding-left: 0px;
+}

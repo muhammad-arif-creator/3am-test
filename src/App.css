@@ -1,18 +1,30 @@
 body {
   font-family: "IBM Plex Sans", sans-serif;
   color: #3d4d62;
+  overflow-x: hidden;
 }
-
+img {
+  max-width: 100%;
+}
 /* global button styling */
+.btn {
+  padding: 6px 14px;
+  min-height: 40px;
+  border-radius: 4px;
+}
 .btn-primary {
   background-color: #01a4b7;
   border-color: #01a4b7;
+  transition: 0.5s ease-in-out;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
 }
 .btn-primary:hover,
 .btn:first-child:hover,
 :not(.btn-check) + .btn:hover {
-  background-color: #0097a9;
-  border-color: #0097a9;
+  background-color: #007e91;
+  border-color: #007e91;
 }
 
 .btn-check:active + .btn-primary,
@@ -20,8 +32,8 @@ body {
 .btn-primary.active,
 .btn-primary:active,
 .show > .btn-primary.dropdown-toggle {
-  background-color: #0097a9;
-  border-color: #0097a9;
+  background-color: #007e91;
+  border-color: #007e91;
 }
 
 .btn-check:active + .btn-primary:focus,
@@ -35,8 +47,12 @@ body {
 /* Global typography */
 h1 {
   font-size: 40px;
+  font-weight: bold;
 }
-
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
 /* header styling */
 .navbar {
   padding: 20px 0px;
@@ -54,6 +70,8 @@ h1 {
 }
 .title {
   position: relative;
+  /* padding-bottom: 25px; */
+  margin-bottom: 25px;
 }
 .title::after {
   content: "";
@@ -62,5 +80,15 @@ h1 {
   width: 38px;
   background-color: #0097a9;
   bottom: 0px;
-  position: absolute;
+  position: relative;
+  margin-top: 25px;
+}
+h2.title.text-center::after {
+  margin: 25px auto 0;
+}
+@media (min-width: 1600px) {
+  .btn {
+    padding: 6px 20px;
+    min-height: 50px;
+  }
 }
