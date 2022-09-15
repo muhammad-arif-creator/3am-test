@@ -1,0 +1,21 @@
+.customs {
+  margin-top: 100px;
+}
+.custom-single {
+  padding: 0px 25px;
+}
+.custom-single img {
+  width: 100%;
+  object-fit: cover;
+}
+.custom-single .image-div {
+  margin-bottom: 30px;
+}
+.custom-single h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.custom-single p {
+  font-size: 16px;
+}

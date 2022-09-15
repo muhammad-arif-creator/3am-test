@@ -1,0 +1,29 @@
+.services {
+  margin-top: 100px;
+}
+.service-top {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.service-top .title {
+  margin-right: 151px;
+}
+
+.service-top .btn {
+  min-width: 151px;
+}
+.service-single {
+  margin-bottom: 45px;
+}
+.service-single .image-div {
+  margin-bottom: 15px;
+}
+.service-single h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.service-image {
+  margin-top: 55px;
+}

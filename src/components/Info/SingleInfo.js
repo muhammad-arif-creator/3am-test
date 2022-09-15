@@ -1,7 +1,6 @@
 import React from "react";
 
 const SingleInfo = ({ data }) => {
-  console.log(data);
   return (
     <div className="row align-items-center ">
       <div className="col-md-6 p-0">
